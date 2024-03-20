@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: sans-serif;
+  }
+  .conteiner {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  #header {
+    background: rgb(123, 123, 255);
+    padding: 20px 0;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .header input {
+    width: 350px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+  .buttons button {
+    padding: 7px 9px;
+    border-radius: 5px;
+    border: 2px solid rgb(66, 66, 240);
+    color: blue;
+  }
+  
+  .flags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 10px;
+  }
+  
+  .flag {
+    width: 250px;
+    padding: 20px;
+    background: rgb(123, 123, 255);
+    border-radius: 20px;
+    color: white;
+  }
+  .flag img {
+    width: 100%;
+    /* background-image: url(peopel.png); */
+  }
